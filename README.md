@@ -9,3 +9,13 @@ Esse repositório contém um projeto desenvolvido em React e foi um teste técni
 ## **Pacotes**
 
 - React-Icons
+
+## **Como inicializar**:
+
+-> git clone [link]
+-> npm install
+-> npm start
+
+## **Preview**
+
+![preview](https://vercel.com/e60b6fc2-e23b-47ec-9979-f38234511381)

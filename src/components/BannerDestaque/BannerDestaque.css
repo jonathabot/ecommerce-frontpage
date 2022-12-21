@@ -24,9 +24,13 @@
   max-width: 600px;
 }
 
-.bannerTexts a {
+.bannerTexts button {
   color: #ff4f01;
-  text-decoration: none;
+  background-color: #edf5f8;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  text-align: left;
 }
 
 @media (max-width: 800px) {
@@ -43,15 +47,16 @@
     text-align: center;
   }
 
-  .bannerTexts a {
+  .bannerTexts button {
     background-color: #ff4f01;
     color: white;
     text-align: center;
     padding: 10px;
     border-radius: 2.5px;
+    width: 100%;
   }
 
-  .bannerTexts a:hover {
+  .bannerTexts button:hover {
     background-color: lightgray;
     transition: 0.2s;
   }
