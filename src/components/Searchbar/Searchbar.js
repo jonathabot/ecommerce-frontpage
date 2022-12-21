@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 export default function Searchbar() {
   const [searchTerm, setSearchTerm] = useState('');
+  console.log(searchTerm);
 
   return (
     <div className="searchBar">
