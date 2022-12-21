@@ -18,4 +18,4 @@ Esse repositório contém um projeto desenvolvido em React e foi um teste técni
 
 ## **Preview**
 
-![preview](https://vercel.com/e60b6fc2-e23b-47ec-9979-f38234511381)
+![preview](https://i.imgur.com/1ouoyI3.png)
