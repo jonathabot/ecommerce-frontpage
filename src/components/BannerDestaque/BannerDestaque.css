@@ -1,0 +1,58 @@
+.bannerDestaque {
+  background-color: #edf5f8;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerTexts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.bannerTexts h1 {
+  color: #ff4f01;
+}
+
+.bannerTexts .destaqueText {
+  color: #5b5b5b;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 600px;
+}
+
+.bannerTexts a {
+  color: #ff4f01;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .bannerDestaque {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bannerTexts {
+    margin: 0;
+  }
+
+  .bannerTexts h1 {
+    text-align: center;
+  }
+
+  .bannerTexts a {
+    background-color: #ff4f01;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2.5px;
+  }
+
+  .bannerTexts a:hover {
+    background-color: lightgray;
+    transition: 0.2s;
+  }
+}

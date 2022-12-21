@@ -1,0 +1,9 @@
+.pageLocator {
+  padding: 10px;
+  margin-left: 10%;
+}
+
+.pageLocator span {
+  font-weight: bold;
+  color: #ff4f01;
+}

@@ -1,0 +1,30 @@
+.headerBar {
+  background-color: #ff4f01;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.headerBarButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.eachHeaderBarButton {
+  display: flex;
+}
+
+.blueStripe {
+  width: 2px;
+  height: 40px;
+  background-color: #0096ff;
+}
+
+@media (max-width: 950px) {
+  .headerBar {
+    display: none;
+  }
+}

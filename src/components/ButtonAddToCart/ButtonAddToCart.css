@@ -1,0 +1,23 @@
+.buttonAddToCart {
+  width: 100%;
+}
+.buttonAddToCart #addToCartButton {
+  margin: 10px 0;
+  background-color: #06cc84;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.buttonAddToCart #addToCartButton:hover {
+  transition: 0.1s;
+  background-color: #038354;
+}
+#addToCartButton img {
+  margin-right: 10px;
+}

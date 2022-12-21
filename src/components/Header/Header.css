@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.headerLogo {
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+  margin-right: 10px;
+  margin-right: 5em;
+  cursor: pointer;
+}
+
+.headerSearchbar {
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+}
+
+.headerLoginSignUp {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+  height: 100%;
+  justify-content: center;
+  width: 200px;
+  margin-right: 5%;
+}
+
+.headerLoginSignUp #welcomeText {
+  color: #ff4f01;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.headerLoginSignUp a {
+  font-weight: 300;
+  color: black;
+}
+
+.headerCarrinho a {
+  color: #ff4f01;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+  .header {
+    display: flex;
+    height: 75px;
+  }
+
+  .headerLoginSignUp {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px #30303060 solid;
+  }
+
+  .headerCarrinho {
+    display: none;
+  }
+}

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import BannerDestaque from './components/BannerDestaque/BannerDestaque';
+import Header from './components/Header/Header';
+import Headerbar from './components/HeaderBar/Headerbar';
+import ListProducts from './components/ListProducts/ListProducts';
+import PageLocator from './components/PageLocator/PageLocator';
+import SideBar from './components/SideBar/SideBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Headerbar />
+      <PageLocator />
+      <BannerDestaque />
+      <div className="sections">
+        <SideBar id="sideBar" />
+        <ListProducts />
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,64 @@
+.orderButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 0;
+  height: 60px;
+  margin-right: 50px;
+}
+
+.viewQuantityButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.viewQuantityButton label {
+  margin-right: 5px;
+}
+
+.orderButtons select {
+  padding: 10px;
+  border-color: darkgray;
+  border-radius: 5px;
+}
+
+.viewOrderButton label {
+  margin-right: 5px;
+}
+
+.viewFilterButton {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .orderButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .viewOrderButton {
+    display: none;
+  }
+  .viewQuantityButton {
+    display: none;
+  }
+  .viewFilterButton {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .filterButton {
+    background-color: #ff4f01;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2.5px;
+    border: none;
+    width: 400px;
+  }
+}

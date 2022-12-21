@@ -1,0 +1,68 @@
+.menuBar {
+  background-color: white;
+  height: 60px;
+  width: 250px;
+  position: relative;
+}
+
+.menuBarIconTitleArrow {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  justify-content: space-between;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+.menuBarIcon {
+  color: blue;
+  width: 50px;
+  height: 20px;
+}
+
+.menuBarTitle {
+  color: #ff4f01;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.menuBarCaret {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid blue;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.menuItems {
+  list-style: none;
+  background: white;
+  color: #303030;
+  border: 1px #30303044 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+}
+
+.menuItems.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menuItems li {
+  padding: 0.7em 0.5em;
+  margin: 0.3em 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuItems li:hover {
+  text-decoration: underline;
+}
